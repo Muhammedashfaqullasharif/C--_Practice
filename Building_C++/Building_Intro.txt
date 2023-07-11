@@ -25,8 +25,15 @@ Building_Methods: There are two ways to build the application.
 
                             * commonly used build system is 'MAKE'. textfiles it have are called as 'makefiles'.  ex: c-make, GNU make,etc.
                             * another such build system is 'BOOST-BUILD'. textfiles it have are called as 'jamfiles'.
-                            
 
+
+               # # The collection of these commandline tools (compiler,archiver,linker) is called TOOLSET : GCC (GNU COMPILER COLLECTION).# #
+
+
+
+
+@Muhammedashfaqullasharif                           
+*****************************************<.<><><><>><><<><><><><><><><><><><>><><><><><><><><><.>**********************************************
 
 
 
