@@ -1,0 +1,32 @@
+Build: converting the source file of any application into executables(.exe).
+     
+        The Sourcefile, By undergoing through the processing of three commandline tools i.e. compiler-> archiver-> Linker.
+            produces the exicutable programs. theses programs/(library) are load into the memory of machine 
+            after initiating the application.
+
+compiler-> create the obectfiles(.obj) of the Sourcefile, which contain the binary, hexadecimal executable data.
+
+archiver-> collect all object files from compiler and generate a static library(.lib).
+
+linker->   Accumulating all object files and libraries defined from sourcefile and link these resources to 
+            carry on the flow of execution. 
+            
+            * Store all resources as a dynamic link library (.DLL). which is present in memory and executed by operaing system.
+
+Building_Methods: There are two ways to build the application. 
+                    1.> By using IDE for graphical interface to manage and organise binary files. 
+                            "Integrated development environment" include all build tools and commands.
+                            IDE create projectfile on top of the sourcefiles, which organise and make ease in building the application.
+
+            
+                    2.> By using "Build System" to organise all sourcefiles and binary data in a text format using text editor.
+                            these text commands operate build tool to build the 'targets'.
+                            "TARGETS"-> collection of binary data in organised manner, used in build System.
+
+                            * commonly used build system is 'MAKE'. textfiles it have are called as 'makefiles'.  ex: c-make, GNU make,etc.
+                            * another such build system is 'BOOST-BUILD'. textfiles it have are called as 'jamfiles'.
+                            
+
+
+
+
